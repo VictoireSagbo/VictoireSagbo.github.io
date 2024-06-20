@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<button id="scrollToTopBtn" onclick="scrollToTop()">Top</button>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +15,7 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -41,13 +45,31 @@
         </div>
     </section>
 
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Data Analysis</li>
+        </ul>
+    </section>
+
     <section id="contact">
         <h2>Contact</h2>
-        <p>For any questions or suggestions, feel free to contact me via email at <a href="mailto:victoiresagbo2@gmail.com">victoiresagbo2@gmail.com</a>.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/denise-sagbo-110808207/" target="_blank"><img src="assets/linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://twitter.com/VictoireSagbo" target="_blank"><img src="assets/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://github.com/VictoireSagbo" target="_blank"><img src="assets/github-icon.png" alt="GitHub"></a>
+            <a href="https://medium.com/@victoiresagbo2" target="_blank"><img src="assets/medium-icon.png" alt="Medium"></a>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Denise Victoire Sagbo</p>
+        <p>&copy; <span id="year"></span> Victoire Sagbo | Licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
