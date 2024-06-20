@@ -46,14 +46,6 @@ The objective of this portfolio is to present my skills and projects professiona
 - Git (optional, for local cloning)
 
 
-### Clone the Repository
-
-To clone this repository to your local machine, use the following command:
-
-```bash
-git clone https://github.com/VictoireSagbo/VictoireSagbo.github.io.git
-
-
 ## Contact
 
 For any questions or suggestions, feel free to contact me via the contact form on the site or by email at [victoiresagbo2@gmail.com](mailto:victoiresagbo2@gmail.com).
@@ -61,4 +53,11 @@ For any questions or suggestions, feel free to contact me via the contact form o
 ## License
 
 This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-nc-nd/4.0/](http://creativecommons.org/licenses/by-nc-nd/4.0/) or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+### Clone the Repository
+
+To clone this repository to your local machine, use the following command:
+
+```bash
+git clone https://github.com/VictoireSagbo/VictoireSagbo.github.io.git
 
