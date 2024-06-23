@@ -13,13 +13,20 @@ function scrollFunction() {
     }
 }
 
-// Function to scroll to the top of the page
+// Function to scroll to the top of the page smoothly
 function scrollToTop() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    document.querySelector('body').scrollIntoView({
+        behavior: 'smooth'
+    });
 }
-
 // Event listener to update the footer with the current year
 document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById('year').textContent = new Date().getFullYear();
 });
+
+// use document.querySelector('#home').scrollIntoView({ behavior: 'smooth' }); to scroll the page to the item with home ID smoothly.
+function scrollToTop() {
+    document.querySelector('#home').scrollIntoView({
+        behavior: 'smooth'
+    });
+}

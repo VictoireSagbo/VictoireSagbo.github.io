@@ -9,7 +9,7 @@ body {
 
 /* Styles for the header section */
 header {
-    background-color: #333;
+    background-color: #a22dc5;
     color: white;
     padding: 10px 0;
     position: fixed;
@@ -29,18 +29,18 @@ header nav {
 }
 
 /* Navigation menu styles */
-header nav ul {
+nav ul {
     list-style: none;
     padding: 0;
    /* text-align: center;*/
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
     margin: 0 15px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
