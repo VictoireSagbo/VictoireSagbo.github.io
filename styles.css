@@ -23,24 +23,24 @@ header .logo {
     margin-left: 20px;
 }
 
-nav {
+header nav {
     float: right;
     margin-right: 20px;
 }
 
 /* Navigation menu styles */
-nav ul {
+header nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+   /* text-align: center;*/
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
+header nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -51,6 +51,7 @@ nav ul li a {
     background: #f4f4f4;
     padding: 100px 20px;
     text-align: center;
+    margin-top: 60px; /* Adjust to ensure the content is not hidden under the fixed header */
 }
 
 /* Styles for different sections (about, projects, skills, contact) */
@@ -102,5 +103,4 @@ footer {
     padding: 10px 0;
     position: fixed;
     width: 100%;
-    bottom: 0;
 }
