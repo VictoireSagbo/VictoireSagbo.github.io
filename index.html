@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <script src="scripts.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -30,7 +25,7 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Skills_and_certificates">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -43,17 +38,13 @@
         </nav>
     </header>
 
-    <section id="home">
-        <object type="text/html" data="home.html" ></object>  
-    </section>
-
     <section id="home"></section>
     <section id="about"></section>
     <section id="skills"></section>
     <section id="projects"></section>
     <section id="contact"></section>
     
-   <footer>
+    <footer>
         <div class="container text-center">
             <p>&copy; <span id="year"></span> Victoire Sagbo | Licensed under CC BY-NC-ND 4.0.</p>
         </div>
@@ -61,10 +52,10 @@
 
     <button id="scrollToTopBtn" onclick="scrollToTop()">&#9650;</button>
 
-    <script src="scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -74,6 +65,8 @@
             document.querySelector('#projects').innerHTML = '<object type="text/html" data="projects.html"></object>';
             document.querySelector('#contact').innerHTML = '<object type="text/html" data="contact.html"></object>';
         });
+
+        document.getElementById("year").textContent = new Date().getFullYear();
     </script>
 
 </body>

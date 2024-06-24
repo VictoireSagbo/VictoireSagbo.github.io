@@ -7,13 +7,17 @@ body {
 }
 
 header {
-    background-color: white;
+    /* background-color: white; */ /* Supprimer le fond blanc */
     color: rgb(35, 4, 77);
     padding: 10px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+}
+
+nav {
+    background-color: rgb(35, 4, 77); /* Couleur de fond pour la barre de navigation */
 }
 
 nav ul {
@@ -28,13 +32,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color:  rgb(35, 4, 77);
+    color: white; /* Couleur du texte pour les liens de navigation */
     text-decoration: none;
     font-weight: bold;
-}
-/**/
-.navbar-light {
-    background-color: transparent; /* Ensure the navbar background is transparent */
 }
 
 #hero {
