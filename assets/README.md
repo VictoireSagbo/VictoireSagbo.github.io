@@ -1,62 +1,39 @@
-# Structure des dossiers du portfolio
-assets/
-├── css/
-│   └── styles.css
-├── fonts/
-│   └── custom-font.ttf
-├── icons/
-│   └── logo.svg
-├── images/
-│   ├── about/
-│   │   └── about-me.jpg
-│   ├── projects/
-│   │   ├── project1.jpg
-│   │   └── project2.jpg
-│   ├── contact/
-│   │   └── contact-bg.jpg
-│   ├── profile.jpg
-│   └── background.jpg
-├── js/
-│   └── scripts.js
-└── videos/
-    └── intro.mp4
-
-# Structure des dossiers du portfolio
+# Structure of the folders in the repository
 
 - **assets/**
-  - **css/** : Contient les fichiers CSS pour le style.
-  - **fonts/** : Contient les polices de caractères personnalisées.
-  - **icons/** : Contient les icônes SVG.
-  - **images/** : Contient les images utilisées dans le site.
-    - **about/** : Images pour la section "À propos".
-    - **projects/** : Images pour la section "Projets".
-    - **contact/** : Images pour la section "Contact".
-  - **js/** : Contient les fichiers JavaScript.
-  - **videos/** : Contient les vidéos utilisées dans le site.
+  - **css/**: Contains the CSS files for styling.
+  - **fonts/**: Contains custom font files.
+  - **icons/**: Contains SVG icons.
+  - **images/**: Contains the images used on the site.
+    - **about/**: Images for the "About" section.
+    - **projects/**: Images for the "Projects" section.
+    - **contact/**: Images for the "Contact" section.
+  - **js/**: Contains the JavaScript files.
+  - **videos/**: Contains the videos used on the site.
 
-## Détails des dossiers
+## Folder details
 
 - **assets/css/**
-  - `styles.css` : Fichier principal de styles CSS.
+  - `styles.css`: Main CSS stylesheet.
 
 - **assets/fonts/**
-  - `custom-font.ttf` : Police de caractères personnalisée.
+  - `custom-font.ttf`: Custom font file.
 
 - **assets/icons/**
-  - `logo.svg` : Icône du logo.
+  - `logo.svg`: Logo icon.
 
 - **assets/images/about/**
-  - `about-me.jpg` : Image pour la section "À propos".
+  - `about-me.jpg`: Image for the "About" section.
 
 - **assets/images/projects/**
-  - `project1.jpg` : Image pour le projet 1.
-  - `project2.jpg` : Image pour le projet 2.
+  - `project1.jpg`: Image for Project 1.
+  - `project2.jpg`: Image for Project 2.
 
 - **assets/images/contact/**
-  - `contact-bg.jpg` : Image de fond pour la section "Contact".
+  - `contact-bg.jpg`: Background image for the "Contact" section.
 
 - **assets/js/**
-  - `scripts.js` : Fichier principal de scripts JavaScript.
+  - `scripts.js`: Main JavaScript file.
 
 - **assets/videos/**
-  - `intro.mp4` : Vidéo d'introduction.
+  - `intro.mp4`: Introduction video.

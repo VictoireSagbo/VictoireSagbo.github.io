@@ -30,3 +30,8 @@ function scrollToTop() {
         behavior: 'smooth'
     });
 }
+
+function() {
+    ("#home").load("home.html");
+    // Chargez d'autres sections ici (par exemple, #about, #skills, etc.)
+};
